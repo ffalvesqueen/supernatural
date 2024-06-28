@@ -1,0 +1,16 @@
+.img-container {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .img-container img {
+    width: 200px;
+    height: 200px;
+    transition: filter 0.3s;
+  }
+  
+  .img-container img.grayed {
+    filter: grayscale(100%);
+  }
+
+  
